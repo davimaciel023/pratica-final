@@ -34,7 +34,7 @@ header {
 .txt {
     font-size: 23px;
     border: 1px solid black;
-    padding: 40px;
+    padding: 4%;
     border-radius: 10px;
 }
 
@@ -50,11 +50,11 @@ header {
 
 .about {
     background-color: rgb(255, 255, 255);
-    margin: 80px 150px;
+    margin: 80px 130px;
 }
 
 .img img{
-    max-width: 1220px;
+    max-width: 100%;
 }
 
 .txt-about {
@@ -73,9 +73,142 @@ header {
 }
 
 .txt2-about {
-    padding: 10px 60px;
+    padding: 20px 60px;
 }
 
 .txt2-about p{
     color: #9c9999;
+}
+
+.about-now {
+    padding-top: 200px;
+}
+
+.layout {
+    background-image: url(img/um-por-do-sol-sobre-uma-praia-com-um-por-do-sol-dourado-ao-fundo.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.layout-main {
+    text-align: center;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    color: aliceblue;
+} 
+
+.txt-layout {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 40px;
+}
+
+.txt-layout h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+
+.txt-layout p {
+    font-weight: 700;
+    padding: 10px;
+}
+
+.txt-layout button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.txt-layout button:hover {
+    animation: button 0.8s alternate infinite;
+
+}
+
+@keyframes button {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.05);
+    }
+}
+
+.img-about img{
+    width: 100%;
+}
+
+.about-new {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin: 80px 130px;
+}
+
+.main-about {
+    display: flex;
+    padding: 30px;
+    background-color: rgb(229, 229, 229);
+    justify-content: space-between;
+}
+
+.texto1 {
+    padding-right: 150px;
+}
+.texto2 {
+    padding-left: 150px;
+}
+
+.txtt h2{
+    font-size: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.txtt p {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #9c9999;
+    text-align: center;
+}
+
+.txt-about2 {
+    padding: 10px;
+    color: #9c9999;
+}
+
+.layout-new {
+    background-image: url(img/um-por-do-sol-sobre-uma-praia-com-um-por-do-sol-dourado-ao-fundo.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layout-main-new {
+    color: white;
+    height: 50vh;
+    text-align: center;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+.layout-main-new h2 {
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.layout-main-new p {
+    padding: 0 200px;
 }
