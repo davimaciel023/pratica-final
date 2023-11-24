@@ -95,6 +95,7 @@ header {
 
 .txt2-about p{
     color: #9c9999;
+    text-align: center;
 }
 
 .about-now {
@@ -180,9 +181,19 @@ header {
 
 .texto1 {
     padding-right: 150px;
+    text-align: center;
+    
+}
+
+.texto1 img {
+    border-radius: 10px;
 }
 .texto2 {
     padding-left: 150px;
+    text-align: center;
+}
+.texto2 img {
+    border-radius: 10px;
 }
 
 .txtt h2{
