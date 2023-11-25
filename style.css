@@ -140,6 +140,7 @@ header {
 
 .img-about img{
     width: 100%;
+    max-height: 30vh;
 }
 
 .about-new {
@@ -292,5 +293,4 @@ textarea {
     font-size: 20px;
     font-weight: 700;
     color: white;
-
 }
