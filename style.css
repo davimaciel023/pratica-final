@@ -212,3 +212,81 @@ header {
 .layout-main-new p {
     padding: 0 200px;
 }
+
+.form {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    height: 80vh;
+    align-items: center;
+}
+
+form {
+    padding: 40px;
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+legend {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.txt-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.txt-form p {
+    text-align: start;
+}
+
+.txt-form label{
+    padding: 5px;
+}
+
+.txt-form input {
+    padding: 5px 75px;
+}
+
+.depart {
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.depart p {
+    text-align: start;
+}
+
+.depart select {
+    padding: 5px 95px;
+}
+
+.textarea {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+textarea {
+    resize: none;
+    padding: 50px 85px;
+}
+
+.textarea p {
+    text-align: start;
+}
+
+.btn-form input{
+    padding: 10px 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: #9c9999;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+
+}
