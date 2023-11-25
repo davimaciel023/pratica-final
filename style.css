@@ -31,11 +31,28 @@ header {
     height: 100vh;
 }
 
-.txt {
+.container {
     font-size: 23px;
     border: 1px solid black;
     padding: 4%;
     border-radius: 10px;
+    backdrop-filter: blur(0px);
+    transition: backdrop-filter 0.5s;
+    overflow: hidden;
+}
+
+.txt {
+    position: relative;
+    top: 200px;
+    transition: top 1s;
+}
+
+.container:hover .txt {
+    top: 0;
+}
+
+.container:hover {
+    backdrop-filter: blur(10px);
 }
 
 .txt h1 {
@@ -78,6 +95,7 @@ header {
 
 .txt2-about p{
     color: #9c9999;
+    text-align: center;
 }
 
 .about-now {
@@ -163,9 +181,19 @@ header {
 
 .texto1 {
     padding-right: 150px;
+    text-align: center;
+    
+}
+
+.texto1 img {
+    border-radius: 10px;
 }
 .texto2 {
     padding-left: 150px;
+    text-align: center;
+}
+.texto2 img {
+    border-radius: 10px;
 }
 
 .txtt h2{
