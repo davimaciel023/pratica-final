@@ -130,36 +130,12 @@ header {
 .txt-layout h3 {
     font-size: 25px;
     padding-bottom: 20px;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .txt-layout p {
-    font-weight: 700;
+    font-weight: 500;
     padding: 10px;
-}
-
-.txt-layout button {
-    padding: 10px 20px;
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.txt-layout button:hover {
-    animation: button 0.8s alternate infinite;
-
-}
-
-@keyframes button {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.05);
-    }
 }
 
 .img-about img{
@@ -277,7 +253,7 @@ legend {
 }
 
 .txt-form input {
-    padding: 5px 75px;
+    padding: 5px 80px;
 }
 
 .depart {
@@ -290,7 +266,7 @@ legend {
 }
 
 .depart select {
-    padding: 5px 95px;
+    padding: 5px 90px;
 }
 
 .textarea {
